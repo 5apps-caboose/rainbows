@@ -9,9 +9,9 @@ Should work anywhere.
 
 # Definitions
 
-## rinabows\_config
+## rainbows\_config
 
-The rinabows\_config definition manages the configuration template for
+The rainbows\_config definition manages the configuration template for
 an application running under rainbows.
 
 ### Parameters:
