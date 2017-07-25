@@ -16,7 +16,7 @@ end
 
 # What ports/sockets to listen on, and what options for them.
 <%- @listen.each do |port, options| %>
-listen "<%= port %>"<%- unless options.nil? or options.strip.empty? %>, <%= options %><%- end %>
+listen "<%= port %>"<%- unless options.nil? or options.empty? %>, <%= options %><%- end %>
 <%- end %>
 
 <%- if @working_directory %>
